@@ -17,8 +17,7 @@ import java.util.List;
 @Entity
 public class Client extends User implements Comparable<Client> {
     //Nezinau ka cia siti daro, bet reikia?!?!?!?
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private String address;
     //birthDate prideta demonstracijai kaip dirbt su LocalDate
     private LocalDate birthDate;
